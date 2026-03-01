@@ -2,11 +2,6 @@ from turtle import *
 speed(0)
 left(90)
 k =20
-tracer(0)
-for x in range (-20,20):
-    for y in range(-20,20):
-        goto(x, y)
-        dot(3)
 
 pendown()
 
