@@ -13,7 +13,7 @@ for x in arr:
         m=max(m,x)
 
 for i in range(len(arr)-2):
-    if (not(1000<=arr[i]<=9999) and not(1000<=arr[i+1]<=9999) and not(1000<=arr[i+2]<=9999)):
+    if (not(1000<=abs(arr[i])<=9999)) and not(1000<=abs(arr[i+1])<=9999) and not(1000<=abs(arr[i+2])<=9999):
         if arr[i]+arr[i+1]+arr[i+2]>m:
             a.append(arr[i]+arr[i+1]+arr[i+2])
             
