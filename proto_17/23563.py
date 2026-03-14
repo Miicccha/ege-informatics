@@ -14,4 +14,4 @@ for i in range(len(arr)-1):
     if arr[i]!=arr[i+1]:
         if abs(arr[i]-arr[i+1])%m==0:
             a.append(arr[i]+arr[i+1])
-print(len(a),min(a))
+print(len(a),max(a))
