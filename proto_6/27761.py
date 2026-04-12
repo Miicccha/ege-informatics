@@ -1,6 +1,5 @@
 from turtle import *
 speed(0)
-left(90)
 k=20
 tracer(0)
 
