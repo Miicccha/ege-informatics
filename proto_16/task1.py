@@ -1,0 +1,12 @@
+import sys 
+sys.setrecursionlimit(300000)
+sys.set_int_max_str_digits(300000)
+
+def F(n):
+    if n<10:
+        return 3
+    else: 
+        return(n+4)* F(n-5)
+    
+print((F(257487)//683+F(257477)//67)//F(257472))
+        
